@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import SkillsList from "@/components/SkillsList";
-import SystemArch from "@/components/SystemArch";
+
 import ProjectsGrid from "@/components/ProjectsGrid";
 import Experience from "@/components/Experience";
 import ContactForm from "@/components/ContactForm";
@@ -55,10 +55,10 @@ export default function Home() {
               Omar Mohamed Abdelghani
             </h1>
             <p className="text-xl sm:text-2xl font-semibold text-primary-custom font-mono">
-              Backend & Full-Stack Software Engineer
+              Full-Stack Developer | Cybersecurity Background
             </p>
             <p className="text-sm sm:text-base text-text-secondary leading-relaxed max-w-2xl">
-              I am a Computer Science student at ElSewedy University of Technology. My engineering focus lies at the intersection of robust backend architectures, artificial intelligence integrations, network design, and cybersecurity. Rather than building simple prototypes, I focus on designing complete, production-ready systems that are secure by design, modular, and easy to maintain.
+              Computer Science student and full-stack developer with a cybersecurity background, combining hands-on Python/Java/PHP engineering with secure-systems thinking. Proven track record building production-style backend architectures, real-time intrusion detection systems, and independently designed full-stack business platforms — including a graduation project (SpecSense AI) led as team lead for an industrial electrical-engineering platform. Seeking a junior full-stack or backend software engineering role where I can ship reliable, secure, well-designed systems from day one.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
@@ -116,25 +116,14 @@ export default function Home() {
               </div>
               <div className="p-4 mt-2 text-center">
                 <div className="text-sm font-semibold text-white">Omar M. Abdelghani</div>
-                <div className="text-xs text-text-secondary font-mono mt-1">Computer Science Major @ SUT</div>
+                <div className="text-xs text-text-secondary font-mono mt-1">Full-Stack Developer · Cybersecurity · Cairo, Egypt</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Systems Architecture & Spec Section */}
-      <section className="bg-[#080C14]/50 border-y border-border-custom py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-12">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-2">Systems Engineering</h2>
-            <p className="text-sm sm:text-base text-text-secondary">
-              I design modular software infrastructures, prioritizing reliability, transaction boundaries, database persistence fallbacks, and microservice container isolation.
-            </p>
-          </div>
-          <SystemArch />
-        </div>
-      </section>
+
 
       {/* Projects Section */}
       <section id="projects" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">

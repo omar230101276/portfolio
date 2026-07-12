@@ -1,36 +1,41 @@
-import { Server, Layout, Database, Terminal, Shield, Network } from "lucide-react";
+import { Server, Layout, Database, Terminal, Shield, Network, Cpu } from "lucide-react";
 
 export default function SkillsList() {
   const skillCategories = [
     {
-      title: "Backend Development",
-      icon: <Server className="text-primary-custom" size={24} />,
-      skills: ["Python", "Laravel (PHP)", "Flask", "FastAPI"],
+      title: "Languages",
+      icon: <Cpu className="text-primary-custom" size={24} />,
+      skills: ["Python", "Java", "JavaScript", "PHP"],
     },
     {
-      title: "Frontend Development",
-      icon: <Layout className="text-[#06B6D4]" size={24} />,
-      skills: ["React", "TypeScript", "JavaScript", "HTML5 & CSS3", "Tailwind CSS"],
+      title: "Backend & Web",
+      icon: <Server className="text-[#06B6D4]" size={24} />,
+      skills: ["Flask", "Laravel", "REST API Design", "HTML/CSS", "Session & Auth Handling"],
     },
     {
       title: "Databases & Storage",
       icon: <Database className="text-[#10B981]" size={24} />,
-      skills: ["MySQL", "PostgreSQL", "SQLite", "Database Design"],
+      skills: ["MySQL", "SQLite", "Data Validation & Integrity Pipelines"],
     },
     {
-      title: "DevOps & Systems",
-      icon: <Terminal className="text-[#F59E0B]" size={24} />,
-      skills: ["Docker", "Git & GitHub", "Linux Administration", "Shell Scripting"],
+      title: "Machine Learning",
+      icon: <Layout className="text-[#F59E0B]" size={24} />,
+      skills: ["scikit-learn", "ML-based Anomaly Detection", "Threat Classification"],
+    },
+    {
+      title: "DevOps & Tools",
+      icon: <Terminal className="text-[#8B5CF6]" size={24} />,
+      skills: ["Docker", "Git & GitHub", "CLI & GUI Tooling", "Linux Administration", "Shell Scripting", "Cross-Platform Development"],
     },
     {
       title: "Cybersecurity",
       icon: <Shield className="text-[#EF4444]" size={24} />,
-      skills: ["Burp Suite", "Wireshark", "Nmap & Metasploit", "OWASP Top 10", "Penetration Testing"],
+      skills: ["OWASP Top 10", "Penetration Testing", "Nmap", "Wireshark", "Burp Suite", "Metasploit", "IDS/IPS Design", "Digital Forensics"],
     },
     {
       title: "Networking",
-      icon: <Network className="text-[#8B5CF6]" size={24} />,
-      skills: ["VLANs", "OSPF Routing", "Cisco Networking", "Network Security"],
+      icon: <Network className="text-[#EC4899]" size={24} />,
+      skills: ["VLAN Segmentation", "OSPF Routing", "Subnetting", "Cisco Packet Tracer"],
     },
   ];
 
